@@ -1,6 +1,5 @@
-import { signToken } from "@/lib/auth";
-import { generateKeyPair } from "@/lib/crypto";
-import { User } from "@/lib/models";
+import { signToken } from "../../../lib/auth";;
+import { User } from "../../../lib/models/User";
 import bcrypt from "bcryptjs";
 import { NextRequest, NextResponse } from "next/server";
 

@@ -1,5 +1,5 @@
-import { getUserFromToken } from "@/lib/auth";
-import { Message } from "@/lib/models";
+import { getUserFromToken } from "../../../lib/auth";
+import { Message } from "../../../lib/models/Message";
 import { NextRequest, NextResponse } from "next/server";
 import { Op } from "sequelize";
 

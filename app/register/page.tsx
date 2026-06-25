@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 import { useRouter } from "next/navigation";
-import { generateKeyPair, encryptAndSavePrivateKey } from "@/lib/crypto";
+import { generateKeyPair, encryptAndSavePrivateKey } from "../../lib/crypto";
 
 export default function RegisterPage() {
   const router = useRouter();

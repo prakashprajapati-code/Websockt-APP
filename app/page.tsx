@@ -21,7 +21,7 @@ import {
   storeReceivedPlaintext,
   getReceivedPlaintexts,
 } from "../lib/session";
-import { CacheStorage } from "@/utils/cachesStore";
+import { CacheStorage } from "../utils/cachesStore";
 
 type AuthUser = { id: number; email: string; username: string } | null;
 const inetrvalt = 2000;

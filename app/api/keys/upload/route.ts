@@ -1,5 +1,5 @@
-import { getUserFromToken } from "@/lib/auth";
-import { PreKey, User } from "@/lib/models";
+import { getUserFromToken } from "../../../../lib/auth"
+import { PreKey, User } from "../../../../lib/models";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {

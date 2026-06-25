@@ -1,5 +1,5 @@
 import { CreationOptional, DataTypes, InferAttributes, InferCreationAttributes, Model } from "sequelize";
-import { sequelize } from "@/lib/db";
+import { sequelize } from "../../lib/db";
 
 export class PreKey extends Model<InferAttributes<PreKey>, InferCreationAttributes<PreKey>> {
   declare id: CreationOptional<number>;

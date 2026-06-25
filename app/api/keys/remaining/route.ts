@@ -1,5 +1,5 @@
-import { getUserFromToken } from "@/lib/auth";
-import { PreKey } from "@/lib/models";
+import { getUserFromToken } from "../../../../lib/auth";
+import { PreKey } from "../../../../lib/models/PreKey";
 import { NextResponse } from "next/server";
 
 export async function GET() {

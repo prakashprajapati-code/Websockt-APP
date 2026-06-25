@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getUserFromToken } from "@/lib/auth";
+import { getUserFromToken } from "../../../lib/auth";
 
-import { User } from "@/lib/models";
+import { User } from "../../../lib/models/User";
 
 export async function GET(req: NextRequest) {
   try {

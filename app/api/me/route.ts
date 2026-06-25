@@ -1,5 +1,5 @@
-import { getUserFromToken } from "@/lib/auth";
-import { User } from "@/lib/models";
+import { getUserFromToken } from "../../../lib/auth";
+import { User } from "../../../lib/models/User";
 import { NextResponse } from "next/server";
 
 export async function GET() {

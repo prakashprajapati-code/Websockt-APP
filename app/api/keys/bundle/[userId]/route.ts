@@ -1,4 +1,4 @@
-import { PreKey, User } from "@/lib/models";
+import { PreKey, User } from "../../../../../lib/models";
 import { NextResponse } from "next/server";
 
 export async function GET(
