@@ -24,16 +24,16 @@
     "sequelize-cli": "^6.6.5",
     "ws": "^8.21.0",
     "tailwindcss": "^4",
-    "@tailwindcss/postcss": "^4"
+    "@tailwindcss/postcss": "^4",
+    "typescript": "^5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/node": "^20"
   },
   "devDependencies": {
     "@types/jsonwebtoken": "^9.0.10",
-    "@types/node": "^20",
     "@types/pg": "^8.20.0",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.9",
-    "typescript": "^5"
+    "eslint-config-next": "16.2.9"
   }
 }
